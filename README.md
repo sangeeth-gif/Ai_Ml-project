@@ -37,21 +37,19 @@ A robust, modular backend application for a Student Database Management System b
 
 2. Create and activate a virtual environment:
    python -m venv venv
-   # On Windows:
    venv\Scripts\activate
-   # On Mac/Linux:
-   source venv/bin/activate
+  
 
-3. Install dependencies:
+4. Install dependencies:
    pip install -r requirements.txt
 
-4. Configure Environment Variables:
-   Create a .env file in the root directory and add your Gemini API key:
+5. Configure Environment Variables:
+   Create a .env file in the root directory and add  Gemini API key:
    GEMINI_API_KEY=your_actual_gemini_api_key_here
 
-5. Run the Application Locally:
+6. Run the Application Locally:
    uvicorn main:app --reload
-   Open your browser and navigate to http://127.0.0.1:8000/docs to test the APIs.
+   Open the browser and navigate to http://127.0.0.1:8000/docs to test the APIs.
 
 ---
 
